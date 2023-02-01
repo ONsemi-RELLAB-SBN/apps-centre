@@ -201,7 +201,7 @@ a:focus {
 
 .navbar-brand span {
   font-family: "Righteous", cursive;
-  font-size: 42px;
+  font-size: 27px;                         /* font size for the title*/
   font-weight: 500;
   /*color: #fefeff;*/
   color: #da7f3a;
@@ -371,11 +371,11 @@ a:focus {
 
 .about_img-container {
   /*width: 225px;*/
-  width: 170px;
+  width: 125px;
   /*background-color: #1ba1b9;*/
   background-color: #ffffff;
   /*height: 225px;*/
-  height: 170px;
+  height: 125px;
   border-radius: 35%;
   display: flex;
   justify-content: center;
@@ -387,11 +387,11 @@ a:focus {
 
 .about_img-container-new {
   /*width: 225px;*/
-  width: 170px;
+  width: 125px;
   /*background-color: #1ba1b9;*/
   background-color: #da7f3a;
   /*height: 225px;*/
-  height: 170px;
+  height: 125px;
   border-radius: 35%;
   display: flex;
   justify-content: center;
@@ -402,7 +402,7 @@ a:focus {
 
 .about_card .about_img-box {
   /*width: 170px;*/
-  width: 130px;
+  width: 100px;
 }
 
 .about_card .about-detail p {
@@ -686,9 +686,9 @@ a:focus {
   /*color: #f4511e;*/
   color: #000000;
   text-align: center;
-  font-size: 17px;
+  font-size: 12px;
   padding: 20px;
-  width: 150px;
+  width: 120px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
