@@ -9,6 +9,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 :root {
     --img-transition: .3s;
     --img-scale: scale(1.3);
+    --clr:#f8f8ff;
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 15%);
+    --clr-orange: #da7f3a;
 }
 
 .container {
@@ -16,7 +20,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
+    margin: 50px auto;
     /*max-width: 900px;*/
     color: #fff;
 }
@@ -86,7 +90,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     background-color: #3a4d54;
 }
 .copyright {
-    background-color: #1a252f;
+    /*background-color: #1a252f;*/
     background-color: #3a4d54;
     bottom: 0;
     color: white;
@@ -162,7 +166,7 @@ a:hover {
     /*background-color: #1ba1b9;*/
     border: none;
     /*color: #FFFFFF;*/
-    color: red;
+    /*color: red;*/
     /*color: #f4511e;*/
     text-align: center;
     font-size: 12px;
@@ -174,7 +178,8 @@ a:hover {
     font-weight: bold;
 }
 .butang span {
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
+    color: #1ba1b9;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -195,6 +200,10 @@ a:hover {
     opacity: 1;
     right: 0;
 }
+.butang:hover{
+    color: red;
+    box-shadow: 0 0 35px var(--clr-orange);
+}
 
 .header_section .container-fluid {
     padding-right: 25px;
@@ -211,4 +220,32 @@ a:hover {
 
 .discover__img:hover {
     transform: var(--img-scale);
+    box-shadow: 0 0 35px var(--clr);
+    background: var(--clr);
+    animation: rotate 1.5s linear infinite;
+}
+
+.discover__img:hover span:nth-child(1){
+    filter: blur(7px);
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+.discover__img:after span:nth-child(1){
+    box-shadow: 0 0 2em .5em var(--clr-neon);
+    background-color: var(--clr-neon);
+    opacity: 0;
+    z-index: -1;
+}
+.discover__img:hover span:nth-child(2){
+    filter: blur(14px);
+}
+.discover__img:hover::after{
+    opacity: 1;
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
