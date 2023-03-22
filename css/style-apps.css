@@ -16,6 +16,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 }
 
 .container {
+    min-height: 74vh;           /*this is the one to set the footer at the bottom*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,7 +93,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 .copyright {
     /*background-color: #1a252f;*/
     background-color: #3a4d54;
-    bottom: 0;
     color: white;
     position: relative;
 }
