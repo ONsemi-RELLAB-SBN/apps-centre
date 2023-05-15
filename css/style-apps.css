@@ -23,7 +23,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     align-items: center;
     margin: 50px auto;
     /*max-width: 900px;*/
-    color: #fff;
+    /*color: #fff;*/
+    color: #D0D3D4;
 }
 .link {
     margin: 10px;
@@ -171,7 +172,7 @@ a:hover {
     /*color: #f4511e;*/
     text-align: center;
     font-size: 12px;
-    padding: 20px;
+    padding: 10px;
     width: 142px;
     transition: all 0.5s;
     cursor: pointer;
@@ -193,6 +194,7 @@ a:hover {
     top: 0;
     right: -40px;
     transition: 0.5s;
+    /*background-color: #1ba1b9;*/
 }
 .butang:hover span {
     padding-right: 25px;
@@ -204,6 +206,7 @@ a:hover {
 .butang:hover{
     color: red;
     box-shadow: 0 0 35px var(--clr-orange);
+    background-color: #1ba1b9;
 }
 
 .header_section .container-fluid {
