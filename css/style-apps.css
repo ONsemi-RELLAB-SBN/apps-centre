@@ -83,7 +83,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     color: #da7f3a;
     margin-top: 0px;
 }
-
 .desk {
     display: grid;
     justify-content: center;
@@ -115,7 +114,6 @@ a:hover {
 #link {
     color: #da7f3a;
 }
-
 .about_card-container {
     display: flex;
     justify-content: center;
@@ -161,11 +159,10 @@ a:hover {
 .about_card img {
     width: 100%;
 }
-
 .butang {
     display: inline-block;
     border-radius: 12px;
-    /*background-color: #1ba1b9;*/
+    background-color: #B3B6B7;
     border: none;
     /*color: #FFFFFF;*/
     /*color: red;*/
@@ -194,6 +191,7 @@ a:hover {
     top: 0;
     right: -40px;
     transition: 0.5s;
+    color: var(--clr-orange);
     /*background-color: #1ba1b9;*/
 }
 .butang:hover span {
@@ -206,29 +204,24 @@ a:hover {
 .butang:hover{
     color: red;
     box-shadow: 0 0 35px var(--clr-orange);
-    background-color: #1ba1b9;
+    background-color: #5D6E71;
 }
-
 .header_section .container-fluid {
     padding-right: 25px;
     padding-left: 25px;
 }
-
 .header_section .nav_container {
     margin: 0 auto;
 }
-
 .discover__img {
     transition: var(--img-transition);
 }
-
 .discover__img:hover {
     transform: var(--img-scale);
     box-shadow: 0 0 35px var(--clr);
     background: var(--clr);
     animation: rotate 1.5s linear infinite;
 }
-
 .discover__img:hover span:nth-child(1){
     filter: blur(7px);
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
