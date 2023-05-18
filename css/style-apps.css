@@ -15,6 +15,33 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     --clr-orange: #da7f3a;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+.imej1{
+    height: 100%; 
+    background-position: center;
+    background-image: url("../images/background04.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.imej2{
+    height: 100%;
+    background-position: center;
+    background-image: url("../images/background04.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container {
     min-height: 74vh;           /*this is the one to set the footer at the bottom*/
     display: flex;
@@ -90,6 +117,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     /*background-color: #ffffff;*/
     background-color: #3a4d54;
 }
+.desk2 {
+    display: grid;
+    justify-content: center;
+    background-color: #496169;
+}
 .copyright {
     /*background-color: #1a252f;*/
     background-color: #3a4d54;
@@ -120,7 +152,7 @@ a:hover {
     flex-wrap: wrap;
 }
 .about_card .about-detail {
-    padding: 2px 25px 35px 25px;
+    padding: 2px 15px 35px 15px;
 }
 .about_img-container {
     /*width: 225px;*/
@@ -245,4 +277,12 @@ a:hover {
     100%{
         filter: hue-rotate(360deg);
     }
+}
+
+.copyright {
+    background-color: #1a252f;
+}
+
+.text-center {
+    text-align: center !important;
 }
