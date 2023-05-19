@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Two Column Image Layout</title>
+        <style>
+            /* Set the width of the columns */
+            .column {
+                width: 50%;
+                float: left;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            /* Style the images */
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            /* Style the links */
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+        <link href="css/sample.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.google.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Google_Logo.svg/1200px-Google_Logo.svg.png"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Facebook_Logo.svg/1200px-Facebook_Logo.svg.png"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Twitter_Logo.svg/1200px-Twitter_Logo.svg.png"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/LinkedIn_Logo.svg/1200px-LinkedIn_Logo.svg.png"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.youtube.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/YouTube_Logo.svg/1200px-YouTube_Logo.svg.png"></a>
+                <a href="https://www.reddit.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Reddit_Logo.svg/1200px-Reddit_Logo.svg.png"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pinterest_Logo.svg/1200px-Pinterest_Logo.svg.png"></a>
+                <a href="https://www.tumblr.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tumblr_Logo.svg/1200px-Tumblr_Logo.svg.png"></a>
+                <a href="https://www.wikipedia.org" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wikimedia_Logo.svg/1200px-Wikimedia_Logo.svg.png"></a>
+            </div>
+        </div>
+        <div class="frame">
+            <div class="lines"></div>
+            <div class="angles"></div>
+            <article>
+                <div class="column">
+                    <p>
+                        <a href="https://www.google.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Google_Logo.svg/1200px-Google_Logo.svg.png"></a>
+                    </p>
+                    <p>
+                    <a href="https://www.facebook.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Facebook_Logo.svg/1200px-Facebook_Logo.svg.png"></a>
+                    </p>
+                    <p>
+                    <a href="https://www.twitter.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Twitter_Logo.svg/1200px-Twitter_Logo.svg.png"></a>
+                    </p>
+                    <p>
+                    <a href="https://www.instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
+                    </p>
+                    <p>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/LinkedIn_Logo.svg/1200px-LinkedIn_Logo.svg.png"></a>
+                    </p>
+                </div>
+                <div class="column">
+                    <a href="https://www.youtube.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/YouTube_Logo.svg/1200px-YouTube_Logo.svg.png"></a>
+                    <a href="https://www.reddit.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Reddit_Logo.svg/1200px-Reddit_Logo.svg.png"></a>
+                    <a href="https://www.pinterest.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pinterest_Logo.svg/1200px-Pinterest_Logo.svg.png"></a>
+                    <a href="https://www.tumblr.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tumblr_Logo.svg/1200px-Tumblr_Logo.svg.png"></a>
+                    <a href="https://www.wikipedia.org" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wikimedia_Logo.svg/1200px-Wikimedia_Logo.svg.png"></a>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>
