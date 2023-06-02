@@ -17,7 +17,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 
 body {
     min-height: 100vh;
-    display: flexd;
+    display: flex;
     flex-direction: column;
     display: grid;
     grid-template-rows: 1fr auto;
