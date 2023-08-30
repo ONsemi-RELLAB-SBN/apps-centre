@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>REL Application Centre</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="0; URL=page01.html" />
+        <link rel="icon" type="image/x-icon" href="assets/logo/onsemi_logo.ico">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Image Header -->
+        <div class="w3-display-container w3-animate-opacity">
+            <img src="https://www.w3schools.com//w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+            <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+                <button onclick="document.getElementById('id01').style.display = 'block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To Rel Lab">ONSEMI REL LAB APPLICATION</button>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-card-4 w3-animate-top">
+                <header class="w3-container w3-teal w3-display-container"> 
+                    <span onclick="document.getElementById('id01').style.display = 'none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+                    <h4>Oh snap! We just showed you a modal..</h4>
+                    <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+                </header>
+                <div class="w3-container">
+                    <p>Cool huh? Ok, enough teasing around..</p>
+                    <p>Go to our <a class="w3-text-teal" href="page01.html">Rel Lab Application Centre</a>!</p>
+                </div>
+                <footer class="w3-container w3-teal">
+                    <p>Modal footer</p>
+                </footer>
+            </div>
+        </div>
+        <!-- Team Container -->
+        <div class="w3-container w3-padding-64 w3-center" id="team">
+            <h2>OUR TEAM</h2>
+            <!--<p>Meet the team - our office rats:</p>-->
+            <div class="w3-row"><br>
+                <div class="w3-third">
+                    <img src="https://www.w3schools.com/w3images/avatar3.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>Mohd Arif</h3>
+                    <p>System</p>
+                </div>
+                <div class="w3-third">
+                    <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>Mohd Farhan</h3>
+                    <p>Boss Man</p>
+                </div>
+                <div class="w3-third">
+                    <img src="https://www.w3schools.com/w3images/avatar4.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>Nor Atiqah</h3>
+                    <p>Support</p>
+                </div>
+<!--                <div class="w3-quarter">
+                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>Kai Ringo</h3>
+                    <p>Fixer</p>
+                </div>-->
+            </div>
+        </div>
+        <iframe src="https://www.onsemi.com/" title="Onsemi Website" style="border:2px solid red; height:500px; width:100%" ></iframe>
+    </body>
+</html>
