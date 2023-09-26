@@ -7,11 +7,11 @@
 /* Footer */
 
 	#footer {
-		@include vendor('transition', (
+/*		@include vendor('transition', (
 			'transform #{_duration(article)} ease-in-out',
 			'filter #{_duration(article)} ease-in-out',
 			'opacity #{_duration(article)} ease-in-out',
-		));
+		));*/
 		width: 100%;
 		max-width: 100%;
 		margin-top: 2rem;
